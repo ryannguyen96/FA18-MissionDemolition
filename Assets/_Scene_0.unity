@@ -180,7 +180,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4286019447
-  m_Size: 5
+  m_Size: 3
 --- !u!1 &488757484
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,6 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4de14dacc9a8c6a4e92897bcc10738e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchPoint: {fileID: 0}
 --- !u!1 &737611854
 GameObject:
   m_ObjectHideFlags: 0
