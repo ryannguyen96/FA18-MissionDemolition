@@ -947,6 +947,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73244688138750a4d816e8344b48d7b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  easing: 0.05
+  minXY: {x: 0, y: 0}
   camZ: 0
 --- !u!1 &1665489582
 GameObject:
