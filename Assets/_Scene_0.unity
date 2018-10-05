@@ -400,6 +400,7 @@ GameObject:
   - component: {fileID: 728326391}
   - component: {fileID: 728326390}
   - component: {fileID: 728326392}
+  - component: {fileID: 728326393}
   m_Layer: 0
   m_Name: Slingshot
   m_TagString: Untagged
@@ -445,6 +446,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b90a9aef1782b4dafa7ff102497b6647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &728326393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 728326389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de14dacc9a8c6a4e92897bcc10738e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &737611854
