@@ -18,7 +18,8 @@ public class MissionDemolition : MonoBehaviour {
     public Text uitShots; // The UIText_Shots Text
 
     public Text uitButton; // The Text on UIButton_View
-    public Vector3 castlePos; // The place to put castles
+    //public Vector3 castlePos; // The place to put castles
+    public Vector3[] castlePos;
     public GameObject[] castles;   // An array of the castles
     [Header("Set Dynamically")]
     public int level;
@@ -55,7 +56,7 @@ public class MissionDemolition : MonoBehaviour {
 
         // Instantiate the new castle
         castle = Instantiate<GameObject>(castles[level]);
-        castle.transform.position = castlePos;
+        castle.transform.position = castlePos[level];
         shotsTaken = 0;
         // Reset the camera
         SwitchView("Show Both");
@@ -69,7 +70,7 @@ public class MissionDemolition : MonoBehaviour {
     void UpdateGUI()
     {
         // Show the data in the GUITexts
-        uitLevel.text = "Level: " + (level + 1) + "of " + levelMax;
+        uitLevel.text = "Level: " + (level + 1) + " of " + levelMax;
         uitShots.text = "Shots Taken: " + shotsTaken;
     }
     void Update()
