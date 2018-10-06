@@ -58,7 +58,7 @@ public class MissionDemolition : MonoBehaviour {
         castle.transform.position = castlePos;
         shotsTaken = 0;
         // Reset the camera
-        SwitchView("wShow Both");
+        SwitchView("Show Both");
         ProjectileLine.S.Clear();
         // Reset the goal
         Goal.goalMet = false;
@@ -116,7 +116,7 @@ public class MissionDemolition : MonoBehaviour {
                 break;
 
             case "Show Both":
-                FollowCam.POI = GameObject.Find("ViewBoth");
+                FollowCam.POI = GameObject.Find("View Both");
                 uitButton.text = "Show Slingshot";
                 break;
         }
